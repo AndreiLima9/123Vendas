@@ -1,0 +1,12 @@
+C:\Projects\123Vendas\AndreiLima.123Vendas.Domain\bin\Debug\net8.0\AndreiLima.123Vendas.Domain.deps.json
+C:\Projects\123Vendas\AndreiLima.123Vendas.Domain\bin\Debug\net8.0\AndreiLima.123Vendas.Domain.dll
+C:\Projects\123Vendas\AndreiLima.123Vendas.Domain\bin\Debug\net8.0\AndreiLima.123Vendas.Domain.pdb
+C:\Projects\123Vendas\AndreiLima.123Vendas.Domain\obj\Debug\net8.0\AndreiLima.123Vendas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\123Vendas\AndreiLima.123Vendas.Domain\obj\Debug\net8.0\AndreiLima.123Vendas.Domain.AssemblyInfoInputs.cache
+C:\Projects\123Vendas\AndreiLima.123Vendas.Domain\obj\Debug\net8.0\AndreiLima.123Vendas.Domain.AssemblyInfo.cs
+C:\Projects\123Vendas\AndreiLima.123Vendas.Domain\obj\Debug\net8.0\AndreiLima.123Vendas.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\123Vendas\AndreiLima.123Vendas.Domain\obj\Debug\net8.0\AndreiLima.123Vendas.Domain.sourcelink.json
+C:\Projects\123Vendas\AndreiLima.123Vendas.Domain\obj\Debug\net8.0\AndreiLima.123Vendas.Domain.dll
+C:\Projects\123Vendas\AndreiLima.123Vendas.Domain\obj\Debug\net8.0\refint\AndreiLima.123Vendas.Domain.dll
+C:\Projects\123Vendas\AndreiLima.123Vendas.Domain\obj\Debug\net8.0\AndreiLima.123Vendas.Domain.pdb
+C:\Projects\123Vendas\AndreiLima.123Vendas.Domain\obj\Debug\net8.0\ref\AndreiLima.123Vendas.Domain.dll

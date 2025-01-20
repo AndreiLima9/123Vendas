@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>AndreiLima._123Vendas.Infrastructure.IoC</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="13.0.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AndreiLima.123Vendas.Domain\AndreiLima.123Vendas.Domain.csproj" />
+    <ProjectReference Include="..\AndreiLima.123Vendas.Infrastructure.Data\AndreiLima.123Vendas.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\AndreiLima.123Vendas.Infrastructure.Events\AndreiLima.123Vendas.Infrastructure.Events.csproj" />
+  </ItemGroup>
+
+</Project>

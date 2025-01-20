@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreiLima.123Vendas.API", "AndreiLima.123Vendas.API.csproj", "{025780DC-FDBF-499C-B5EB-C43654474EF6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{823F6369-8401-4F57-9ED8-4AC214D52290} = {823F6369-8401-4F57-9ED8-4AC214D52290}
+		{AE8C23E3-1779-4C89-A376-4C4D0C4320AB} = {AE8C23E3-1779-4C89-A376-4C4D0C4320AB}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - API", "1 - API", "{5B62B2DD-9EAF-47FE-97D9-4A3B65E8A811}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{58ACBDA2-A43C-4EC9-9EBB-9380A4D02764}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{CFE1272E-4CE4-444E-AA37-C469D95706E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Tests", "4 - Tests", "{53A11382-92E4-4584-8AEF-4B44FF47709C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreiLima.123Vendas.Domain", "..\AndreiLima.123Vendas.Domain\AndreiLima.123Vendas.Domain.csproj", "{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreiLima.123Vendas.Infrastructure.Data", "..\AndreiLima.123Vendas.Infrastructure.Data\AndreiLima.123Vendas.Infrastructure.Data.csproj", "{823F6369-8401-4F57-9ED8-4AC214D52290}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreiLima.123Vendas.Infrastructure.Events", "..\AndreiLima.123Vendas.Infrastructure.Events\AndreiLima.123Vendas.Infrastructure.Events.csproj", "{5AF238D5-6F43-45B0-962E-2EC323AE441C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreiLima.123Vendas.Infrastructure.IoC", "..\AndreiLima.123Vendas.Infrastructure.IoC\AndreiLima.123Vendas.Infrastructure.IoC.csproj", "{AE8C23E3-1779-4C89-A376-4C4D0C4320AB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5AF238D5-6F43-45B0-962E-2EC323AE441C} = {5AF238D5-6F43-45B0-962E-2EC323AE441C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{025780DC-FDBF-499C-B5EB-C43654474EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{025780DC-FDBF-499C-B5EB-C43654474EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{025780DC-FDBF-499C-B5EB-C43654474EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{025780DC-FDBF-499C-B5EB-C43654474EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{823F6369-8401-4F57-9ED8-4AC214D52290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823F6369-8401-4F57-9ED8-4AC214D52290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823F6369-8401-4F57-9ED8-4AC214D52290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823F6369-8401-4F57-9ED8-4AC214D52290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF238D5-6F43-45B0-962E-2EC323AE441C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF238D5-6F43-45B0-962E-2EC323AE441C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF238D5-6F43-45B0-962E-2EC323AE441C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF238D5-6F43-45B0-962E-2EC323AE441C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE8C23E3-1779-4C89-A376-4C4D0C4320AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8C23E3-1779-4C89-A376-4C4D0C4320AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8C23E3-1779-4C89-A376-4C4D0C4320AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8C23E3-1779-4C89-A376-4C4D0C4320AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{025780DC-FDBF-499C-B5EB-C43654474EF6} = {5B62B2DD-9EAF-47FE-97D9-4A3B65E8A811}
+		{72B03C9F-9509-479D-A118-8DCDBF7C1E2B} = {58ACBDA2-A43C-4EC9-9EBB-9380A4D02764}
+		{823F6369-8401-4F57-9ED8-4AC214D52290} = {CFE1272E-4CE4-444E-AA37-C469D95706E7}
+		{5AF238D5-6F43-45B0-962E-2EC323AE441C} = {CFE1272E-4CE4-444E-AA37-C469D95706E7}
+		{AE8C23E3-1779-4C89-A376-4C4D0C4320AB} = {CFE1272E-4CE4-444E-AA37-C469D95706E7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {207867D2-A8C2-40A4-964C-444B155E4E39}
+	EndGlobalSection
+EndGlobal

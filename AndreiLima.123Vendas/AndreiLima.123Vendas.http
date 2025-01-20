@@ -1,0 +1,6 @@
+@AndreiLima._123Vendas_HostAddress = http://localhost:5191
+
+GET {{AndreiLima._123Vendas_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,923 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|c:\\projects\\123vendas\\andreilima.123vendas\\andreilima.123vendas.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|solutionrelative:andreilima.123vendas.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|c:\\projects\\123vendas\\andreilima.123vendas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8C23E3-1779-4C89-A376-4C4D0C4320AB}|..\\AndreiLima.123Vendas.Infrastructure.IoC\\AndreiLima.123Vendas.Infrastructure.IoC.csproj|c:\\projects\\123vendas\\andreilima.123vendas.infrastructure.ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\services\\purchaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\interfaces\\services\\ipurchaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8C23E3-1779-4C89-A376-4C4D0C4320AB}|..\\AndreiLima.123Vendas.Infrastructure.IoC\\AndreiLima.123Vendas.Infrastructure.IoC.csproj|c:\\projects\\123vendas\\andreilima.123vendas.infrastructure.ioc\\serviceproviderproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\interfaces\\notifications\\icontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AF238D5-6F43-45B0-962E-2EC323AE441C}|..\\AndreiLima.123Vendas.Infrastructure.Events\\AndreiLima.123Vendas.Infrastructure.Events.csproj|c:\\projects\\123vendas\\andreilima.123vendas.infrastructure.events\\createpurchasepublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\interfaces\\events\\icreatepurchasepublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\entities\\eventmessages\\createpurchasemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\services\\servicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|c:\\projects\\123vendas\\andreilima.123vendas\\controllers\\purchasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|solutionrelative:controllers\\purchasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\interfaces\\services\\iservicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\interfaces\\repositories\\isaleitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\interfaces\\repositories\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\interfaces\\repositories\\ipurchaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\interfaces\\notifications\\inotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\interfaces\\events\\ieventpublisherbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\interfaces\\events\\icanceledpurchasepublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\interfaces\\events\\ialteredpurchasepublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823F6369-8401-4F57-9ED8-4AC214D52290}|..\\AndreiLima.123Vendas.Infrastructure.Data\\AndreiLima.123Vendas.Infrastructure.Data.csproj|c:\\projects\\123vendas\\andreilima.123vendas.infrastructure.data\\configuration\\purchaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|c:\\projects\\123vendas\\andreilima.123vendas\\mappers\\purchaseprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|solutionrelative:mappers\\purchaseprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|c:\\projects\\123vendas\\andreilima.123vendas\\filters\\notificationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|solutionrelative:filters\\notificationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8C23E3-1779-4C89-A376-4C4D0C4320AB}|..\\AndreiLima.123Vendas.Infrastructure.IoC\\AndreiLima.123Vendas.Infrastructure.IoC.csproj|c:\\projects\\123vendas\\andreilima.123vendas.infrastructure.ioc\\andreilima.123vendas.infrastructure.ioc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|c:\\projects\\123vendas\\andreilima.123vendas\\andreilima.123vendas.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|solutionrelative:andreilima.123vendas.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|c:\\projects\\123vendas\\andreilima.123vendas\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|solutionrelative:controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|c:\\projects\\123vendas\\andreilima.123vendas\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|c:\\projects\\123vendas\\andreilima.123vendas\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8C23E3-1779-4C89-A376-4C4D0C4320AB}|..\\AndreiLima.123Vendas.Infrastructure.IoC\\AndreiLima.123Vendas.Infrastructure.IoC.csproj|c:\\projects\\123vendas\\andreilima.123vendas.infrastructure.ioc\\andreilima.123vendas.infrastructure.ioc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AF238D5-6F43-45B0-962E-2EC323AE441C}|..\\AndreiLima.123Vendas.Infrastructure.Events\\AndreiLima.123Vendas.Infrastructure.Events.csproj|c:\\projects\\123vendas\\andreilima.123vendas.infrastructure.events\\andreilima.123vendas.infrastructure.events.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823F6369-8401-4F57-9ED8-4AC214D52290}|..\\AndreiLima.123Vendas.Infrastructure.Data\\AndreiLima.123Vendas.Infrastructure.Data.csproj|c:\\projects\\123vendas\\andreilima.123vendas.infrastructure.data\\andreilima.123vendas.infrastructure.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\andreilima.123vendas.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823F6369-8401-4F57-9ED8-4AC214D52290}|..\\AndreiLima.123Vendas.Infrastructure.Data\\AndreiLima.123Vendas.Infrastructure.Data.csproj|c:\\projects\\123vendas\\andreilima.123vendas.infrastructure.data\\repository\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823F6369-8401-4F57-9ED8-4AC214D52290}|..\\AndreiLima.123Vendas.Infrastructure.Data\\AndreiLima.123Vendas.Infrastructure.Data.csproj|c:\\projects\\123vendas\\andreilima.123vendas.infrastructure.data\\configuration\\saleitemconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\services\\notifications\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|c:\\projects\\123vendas\\andreilima.123vendas\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|c:\\projects\\123vendas\\andreilima.123vendas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823F6369-8401-4F57-9ED8-4AC214D52290}|..\\AndreiLima.123Vendas.Infrastructure.Data\\AndreiLima.123Vendas.Infrastructure.Data.csproj|c:\\projects\\123vendas\\andreilima.123vendas.infrastructure.data\\repository\\saleitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823F6369-8401-4F57-9ED8-4AC214D52290}|..\\AndreiLima.123Vendas.Infrastructure.Data\\AndreiLima.123Vendas.Infrastructure.Data.csproj|c:\\projects\\123vendas\\andreilima.123vendas.infrastructure.data\\repository\\purchaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823F6369-8401-4F57-9ED8-4AC214D52290}|..\\AndreiLima.123Vendas.Infrastructure.Data\\AndreiLima.123Vendas.Infrastructure.Data.csproj|c:\\projects\\123vendas\\andreilima.123vendas.infrastructure.data\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AF238D5-6F43-45B0-962E-2EC323AE441C}|..\\AndreiLima.123Vendas.Infrastructure.Events\\AndreiLima.123Vendas.Infrastructure.Events.csproj|c:\\projects\\123vendas\\andreilima.123vendas.infrastructure.events\\alteredpurchasepublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AF238D5-6F43-45B0-962E-2EC323AE441C}|..\\AndreiLima.123Vendas.Infrastructure.Events\\AndreiLima.123Vendas.Infrastructure.Events.csproj|c:\\projects\\123vendas\\andreilima.123vendas.infrastructure.events\\canceledpurchasepublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AF238D5-6F43-45B0-962E-2EC323AE441C}|..\\AndreiLima.123Vendas.Infrastructure.Events\\AndreiLima.123Vendas.Infrastructure.Events.csproj|c:\\projects\\123vendas\\andreilima.123vendas.infrastructure.events\\eventpublisherbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\services\\notifications\\servicelocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\services\\notifications\\notificationwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\entities\\saleitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\entities\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\entities\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\entities\\notifications\\notificationerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\entities\\eventmessages\\eventmessagebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\entities\\eventmessages\\canceledpurchasemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B03C9F-9509-479D-A118-8DCDBF7C1E2B}|..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj|c:\\projects\\123vendas\\andreilima.123vendas.domain\\entities\\eventmessages\\alteredpurchasemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|c:\\projects\\123vendas\\andreilima.123vendas\\models\\responses\\saleitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|solutionrelative:models\\responses\\saleitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|c:\\projects\\123vendas\\andreilima.123vendas\\models\\responses\\purchaseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|solutionrelative:models\\responses\\purchaseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|c:\\projects\\123vendas\\andreilima.123vendas\\models\\responses\\purchasedetailsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|solutionrelative:models\\responses\\purchasedetailsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|c:\\projects\\123vendas\\andreilima.123vendas\\models\\requests\\purchaserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|solutionrelative:models\\requests\\purchaserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|c:\\projects\\123vendas\\andreilima.123vendas\\models\\requests\\saleitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{025780DC-FDBF-499C-B5EB-C43654474EF6}|AndreiLima.123Vendas.API.csproj|solutionrelative:models\\requests\\saleitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreatePurchasePublisher.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Events\\CreatePurchasePublisher.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Infrastructure.Events\\CreatePurchasePublisher.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Events\\CreatePurchasePublisher.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Infrastructure.Events\\CreatePurchasePublisher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:55:56.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.IoC\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Infrastructure.IoC\\DependencyInjection.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.IoC\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Infrastructure.IoC\\DependencyInjection.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:54:46.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServiceProviderProxy.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.IoC\\ServiceProviderProxy.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Infrastructure.IoC\\ServiceProviderProxy.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.IoC\\ServiceProviderProxy.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Infrastructure.IoC\\ServiceProviderProxy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:54:31.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IContainer.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Notifications\\IContainer.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Notifications\\IContainer.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Notifications\\IContainer.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Notifications\\IContainer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:48:34.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PurchaseService.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Services\\PurchaseService.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Services\\PurchaseService.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Services\\PurchaseService.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Services\\PurchaseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:51:23.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPurchaseService.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Services\\IPurchaseService.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Services\\IPurchaseService.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Services\\IPurchaseService.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Services\\IPurchaseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:49:55.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AndreiLima.123Vendas.API.csproj",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\AndreiLima.123Vendas.API.csproj",
+              "RelativeDocumentMoniker": "AndreiLima.123Vendas.API.csproj",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\AndreiLima.123Vendas.API.csproj",
+              "RelativeToolTip": "AndreiLima.123Vendas.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-20T17:12:31.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAAC4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:36:27.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICreatePurchasePublisher.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Events\\ICreatePurchasePublisher.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Events\\ICreatePurchasePublisher.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Events\\ICreatePurchasePublisher.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Events\\ICreatePurchasePublisher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:47:55.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreatePurchaseMessage.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Entities\\EventMessages\\CreatePurchaseMessage.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Entities\\EventMessages\\CreatePurchaseMessage.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Entities\\EventMessages\\CreatePurchaseMessage.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Entities\\EventMessages\\CreatePurchaseMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:44:17.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ServiceBase.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Services\\ServiceBase.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Services\\ServiceBase.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Services\\ServiceBase.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Services\\ServiceBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:51:31.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PurchaseController.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Controllers\\PurchaseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PurchaseController.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Controllers\\PurchaseController.cs",
+              "RelativeToolTip": "Controllers\\PurchaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:13:38.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IServiceBase.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Services\\IServiceBase.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Services\\IServiceBase.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Services\\IServiceBase.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Services\\IServiceBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:50:08.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ISaleItemRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Repositories\\ISaleItemRepository.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Repositories\\ISaleItemRepository.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Repositories\\ISaleItemRepository.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Repositories\\ISaleItemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:49:31.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Repositories\\IRepositoryBase.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Repositories\\IRepositoryBase.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Repositories\\IRepositoryBase.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Repositories\\IRepositoryBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:49:40.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IPurchaseRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Repositories\\IPurchaseRepository.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Repositories\\IPurchaseRepository.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Repositories\\IPurchaseRepository.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Repositories\\IPurchaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:49:04.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "INotification.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Notifications\\INotification.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Notifications\\INotification.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Notifications\\INotification.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Notifications\\INotification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:48:47.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IEventPublisherBase.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Events\\IEventPublisherBase.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Events\\IEventPublisherBase.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Events\\IEventPublisherBase.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Events\\IEventPublisherBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:48:19.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ICanceledPurchasePublisher.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Events\\ICanceledPurchasePublisher.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Events\\ICanceledPurchasePublisher.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Events\\ICanceledPurchasePublisher.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Events\\ICanceledPurchasePublisher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:47:36.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IAlteredPurchasePublisher.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Events\\IAlteredPurchasePublisher.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Events\\IAlteredPurchasePublisher.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Interfaces\\Events\\IAlteredPurchasePublisher.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Interfaces\\Events\\IAlteredPurchasePublisher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:46:58.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PurchaseConfig.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Data\\Configuration\\PurchaseConfig.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Infrastructure.Data\\Configuration\\PurchaseConfig.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Data\\Configuration\\PurchaseConfig.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Infrastructure.Data\\Configuration\\PurchaseConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:58:28.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PurchaseProfile.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Mappers\\PurchaseProfile.cs",
+              "RelativeDocumentMoniker": "Mappers\\PurchaseProfile.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Mappers\\PurchaseProfile.cs",
+              "RelativeToolTip": "Mappers\\PurchaseProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:33:59.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AndreiLima.123Vendas.Infrastructure.IoC",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.IoC\\AndreiLima.123Vendas.Infrastructure.IoC.csproj",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Infrastructure.IoC\\AndreiLima.123Vendas.Infrastructure.IoC.csproj",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.IoC\\AndreiLima.123Vendas.Infrastructure.IoC.csproj",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Infrastructure.IoC\\AndreiLima.123Vendas.Infrastructure.IoC.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-20T23:03:51.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NotificationFilter.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Filters\\NotificationFilter.cs",
+              "RelativeDocumentMoniker": "Filters\\NotificationFilter.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Filters\\NotificationFilter.cs",
+              "RelativeToolTip": "Filters\\NotificationFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:33:14.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Controllers\\BaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:13:20.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AndreiLima.123Vendas.http",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\AndreiLima.123Vendas.http",
+              "RelativeDocumentMoniker": "AndreiLima.123Vendas.http",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\AndreiLima.123Vendas.http",
+              "RelativeToolTip": "AndreiLima.123Vendas.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-20T23:16:58.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SaleItemConfig.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Data\\Configuration\\SaleItemConfig.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Infrastructure.Data\\Configuration\\SaleItemConfig.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Data\\Configuration\\SaleItemConfig.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Infrastructure.Data\\Configuration\\SaleItemConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:58:39.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AndreiLima.123Vendas.Domain",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\AndreiLima.123Vendas.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-20T23:02:57.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AndreiLima.123Vendas.Infrastructure.Data",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Data\\AndreiLima.123Vendas.Infrastructure.Data.csproj",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Infrastructure.Data\\AndreiLima.123Vendas.Infrastructure.Data.csproj",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Data\\AndreiLima.123Vendas.Infrastructure.Data.csproj",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Infrastructure.Data\\AndreiLima.123Vendas.Infrastructure.Data.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-20T23:03:00.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-20T23:08:08.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AndreiLima.123Vendas.Infrastructure.IoC",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.IoC\\AndreiLima.123Vendas.Infrastructure.IoC.csproj",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Infrastructure.IoC\\AndreiLima.123Vendas.Infrastructure.IoC.csproj",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.IoC\\AndreiLima.123Vendas.Infrastructure.IoC.csproj",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Infrastructure.IoC\\AndreiLima.123Vendas.Infrastructure.IoC.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-20T23:04:30.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-20T17:36:06.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RepositoryContext.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Data\\Repository\\RepositoryContext.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Infrastructure.Data\\Repository\\RepositoryContext.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Data\\Repository\\RepositoryContext.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Infrastructure.Data\\Repository\\RepositoryContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:59:23.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AndreiLima.123Vendas.Infrastructure.Events.csproj",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Events\\AndreiLima.123Vendas.Infrastructure.Events.csproj",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Infrastructure.Events\\AndreiLima.123Vendas.Infrastructure.Events.csproj",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Events\\AndreiLima.123Vendas.Infrastructure.Events.csproj",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Infrastructure.Events\\AndreiLima.123Vendas.Infrastructure.Events.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-20T17:55:24.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Services\\Notifications\\NotificationService.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Services\\Notifications\\NotificationService.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Services\\Notifications\\NotificationService.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Services\\Notifications\\NotificationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:50:51.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-20T19:13:16.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-20T19:13:10.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Data\\Repository\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Infrastructure.Data\\Repository\\RepositoryBase.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Data\\Repository\\RepositoryBase.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Infrastructure.Data\\Repository\\RepositoryBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:59:13.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AlteredPurchasePublisher.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Events\\AlteredPurchasePublisher.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Infrastructure.Events\\AlteredPurchasePublisher.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Events\\AlteredPurchasePublisher.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Infrastructure.Events\\AlteredPurchasePublisher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:55:22.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PurchaseRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Data\\Repository\\PurchaseRepository.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Infrastructure.Data\\Repository\\PurchaseRepository.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Data\\Repository\\PurchaseRepository.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Infrastructure.Data\\Repository\\PurchaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:58:51.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SaleItemRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Data\\Repository\\SaleItemRepository.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Infrastructure.Data\\Repository\\SaleItemRepository.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Data\\Repository\\SaleItemRepository.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Infrastructure.Data\\Repository\\SaleItemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:59:01.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CanceledPurchasePublisher.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Events\\CanceledPurchasePublisher.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Infrastructure.Events\\CanceledPurchasePublisher.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Events\\CanceledPurchasePublisher.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Infrastructure.Events\\CanceledPurchasePublisher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:55:34.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EventPublisherBase.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Events\\EventPublisherBase.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Infrastructure.Events\\EventPublisherBase.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Events\\EventPublisherBase.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Infrastructure.Events\\EventPublisherBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:55:00.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ServiceLocator.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Services\\Notifications\\ServiceLocator.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Services\\Notifications\\ServiceLocator.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Services\\Notifications\\ServiceLocator.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Services\\Notifications\\ServiceLocator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:51:12.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "NotificationWrapper.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Services\\Notifications\\NotificationWrapper.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Services\\Notifications\\NotificationWrapper.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Services\\Notifications\\NotificationWrapper.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Services\\Notifications\\NotificationWrapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:51:01.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "SaleItem.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Entities\\SaleItem.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Entities\\SaleItem.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Entities\\SaleItem.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Entities\\SaleItem.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwB8AAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:45:24.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Purchase.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Entities\\Purchase.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Entities\\Purchase.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Entities\\Purchase.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Entities\\Purchase.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:45:05.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "EntityBase.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Entities\\EntityBase.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Entities\\EntityBase.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Entities\\EntityBase.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Entities\\EntityBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:45:14.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "NotificationError.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Entities\\Notifications\\NotificationError.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Entities\\Notifications\\NotificationError.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Entities\\Notifications\\NotificationError.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Entities\\Notifications\\NotificationError.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:44:50.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "EventMessageBase.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Entities\\EventMessages\\EventMessageBase.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Entities\\EventMessages\\EventMessageBase.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Entities\\EventMessages\\EventMessageBase.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Entities\\EventMessages\\EventMessageBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:44:32.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CanceledPurchaseMessage.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Entities\\EventMessages\\CanceledPurchaseMessage.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Entities\\EventMessages\\CanceledPurchaseMessage.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Entities\\EventMessages\\CanceledPurchaseMessage.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Entities\\EventMessages\\CanceledPurchaseMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:44:01.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AlteredPurchaseMessage.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Entities\\EventMessages\\AlteredPurchaseMessage.cs",
+              "RelativeDocumentMoniker": "..\\AndreiLima.123Vendas.Domain\\Entities\\EventMessages\\AlteredPurchaseMessage.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Domain\\Entities\\EventMessages\\AlteredPurchaseMessage.cs",
+              "RelativeToolTip": "..\\AndreiLima.123Vendas.Domain\\Entities\\EventMessages\\AlteredPurchaseMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:43:42.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "SaleItemResponse.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Models\\Responses\\SaleItemResponse.cs",
+              "RelativeDocumentMoniker": "Models\\Responses\\SaleItemResponse.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Models\\Responses\\SaleItemResponse.cs",
+              "RelativeToolTip": "Models\\Responses\\SaleItemResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:22:45.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "PurchaseResponse.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Models\\Responses\\PurchaseResponse.cs",
+              "RelativeDocumentMoniker": "Models\\Responses\\PurchaseResponse.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Models\\Responses\\PurchaseResponse.cs",
+              "RelativeToolTip": "Models\\Responses\\PurchaseResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:22:28.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "PurchaseDetailsResponse.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Models\\Responses\\PurchaseDetailsResponse.cs",
+              "RelativeDocumentMoniker": "Models\\Responses\\PurchaseDetailsResponse.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Models\\Responses\\PurchaseDetailsResponse.cs",
+              "RelativeToolTip": "Models\\Responses\\PurchaseDetailsResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:22:17.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "SaleItemRequest.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Models\\Requests\\SaleItemRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Requests\\SaleItemRequest.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Models\\Requests\\SaleItemRequest.cs",
+              "RelativeToolTip": "Models\\Requests\\SaleItemRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:20:40.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "PurchaseRequest.cs",
+              "DocumentMoniker": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Models\\Requests\\PurchaseRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Requests\\PurchaseRequest.cs",
+              "ToolTip": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas\\Models\\Requests\\PurchaseRequest.cs",
+              "RelativeToolTip": "Models\\Requests\\PurchaseRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T17:18:22.746Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

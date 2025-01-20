@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "2UEqO3s+EomCIWBmmqoP3XuHh5iDb6GjocYkvXcdOK3k2Vvglm3eUvse58fwOXiX2S8eoDB8phvZXRdgBDpE6g==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\123Vendas\\AndreiLima.123Vendas.Infrastructure.Events\\AndreiLima.123Vendas.Infrastructure.Events.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.0\\microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.0\\system.diagnostics.diagnosticsource.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
