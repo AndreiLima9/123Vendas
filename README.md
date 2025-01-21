@@ -34,16 +34,18 @@ dotnet ef database update -s .\src\AndreiLima.123Vendas.API
 
 
 🚀 Tecnologias e Práticas Utilizadas
-ASP.NET Core 8: Framework principal para desenvolvimento da API.
-Entity Framework Core: ORM para mapeamento e gestão do banco de dados.
-PostgreSQL: Banco de dados relacional.
-DDD (Domain-Driven Design): Organização da estrutura do projeto baseada em domínios.
-SOLID: Aplicação de princípios para código limpo e manutenível.
-Eventos: Integração para envio e tratamento de eventos no sistema.
+- ASP.NET Core 8: Framework principal para desenvolvimento da API.
+- Entity Framework Core: ORM para mapeamento e gestão do banco de dados.
+- PostgreSQL: Banco de dados relacional.
+- DDD (Domain-Driven Design): Organização da estrutura do projeto baseada em domínios.
+- SOLID: Aplicação de princípios para código limpo e manutenível.
+- Eventos: Integração para envio e tratamento de eventos no sistema.
+
+  
 📚 Estrutura do Projeto
 A estrutura do projeto segue os princípios do DDD, dividindo responsabilidades entre camadas específicas:
 
-Domain: Regras de negócio e entidades.
-Application: Casos de uso e serviços de aplicação.
-Infrastructure: Acesso a dados e integração com serviços externos.
-API: Interface REST para consumo da aplicação.
+- Domain: Regras de negócio e entidades.
+- Application: Casos de uso e serviços de aplicação.
+- Infrastructure: Acesso a dados e integração com serviços externos.
+- API: Interface REST para consumo da aplicação.
