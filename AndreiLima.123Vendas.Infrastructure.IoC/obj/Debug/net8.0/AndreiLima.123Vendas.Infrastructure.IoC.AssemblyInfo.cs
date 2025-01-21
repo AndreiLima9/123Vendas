@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AndreiLima.123Vendas.Infrastructure.IoC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f0a7b81526ab6d43f6ee9a632c1261caffaa123")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c64971ed3c2e77e3bfa412cbe9f4e1b20e366c69")]
 [assembly: System.Reflection.AssemblyProductAttribute("AndreiLima.123Vendas.Infrastructure.IoC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AndreiLima.123Vendas.Infrastructure.IoC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

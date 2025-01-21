@@ -1,0 +1,91 @@
+# Visual Studio
+.vs/
+
+# Build Results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.userprefs
+*.rsuser
+*.DotSettings.user
+
+# Logs
+*.log
+
+# IDE directories
+.idea/
+*.sln.iml
+
+# Rider IDE
+*.sln.DotSettings
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Crash Reports
+CrashReports/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# DotNet Specific
+*.pidb
+*.pdb
+*.mdb
+*.ilk
+*.idb
+*.tlog
+*.log
+*.vspscc
+*.vssscc
+*.nvuser
+.project
+*.csproj.user
+
+# ASP.NET Files
+wwwroot/
+appsettings.*.json
+
+# Database Files
+*.mdf
+*.ldf
+*.db
+
+# System generated
+*.pfx
+*.snk
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.dir
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Rider IDE
+.idea/
+*.sln.DotSettings
+
+# JetBrains Rider User Settings
+.idea/
+
+# NCrunch
+.ncrunchsolution/
+
+# SonarQube files
+.sonarqube/
+
+# Backup & snapshots
+*.bak
+*.swp
+*.swo

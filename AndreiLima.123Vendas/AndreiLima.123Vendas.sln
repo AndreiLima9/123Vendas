@@ -28,6 +28,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreiLima.123Vendas.Infras
 		{5AF238D5-6F43-45B0-962E-2EC323AE441C} = {5AF238D5-6F43-45B0-962E-2EC323AE441C}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndreiLima.123Vendas.Infrastructure.UnitTests", "..\AndreiLima.123Vendas.Infrastructure.UnitTests\AndreiLima.123Vendas.Infrastructure.UnitTests.csproj", "{F71BC5A3-A297-4D83-B70D-0D0E52C25681}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +56,10 @@ Global
 		{AE8C23E3-1779-4C89-A376-4C4D0C4320AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE8C23E3-1779-4C89-A376-4C4D0C4320AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE8C23E3-1779-4C89-A376-4C4D0C4320AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71BC5A3-A297-4D83-B70D-0D0E52C25681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71BC5A3-A297-4D83-B70D-0D0E52C25681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71BC5A3-A297-4D83-B70D-0D0E52C25681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71BC5A3-A297-4D83-B70D-0D0E52C25681}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{823F6369-8401-4F57-9ED8-4AC214D52290} = {CFE1272E-4CE4-444E-AA37-C469D95706E7}
 		{5AF238D5-6F43-45B0-962E-2EC323AE441C} = {CFE1272E-4CE4-444E-AA37-C469D95706E7}
 		{AE8C23E3-1779-4C89-A376-4C4D0C4320AB} = {CFE1272E-4CE4-444E-AA37-C469D95706E7}
+		{F71BC5A3-A297-4D83-B70D-0D0E52C25681} = {53A11382-92E4-4584-8AEF-4B44FF47709C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {207867D2-A8C2-40A4-964C-444B155E4E39}

@@ -16,6 +16,8 @@ namespace AndreiLima._123Vendas.Domain.Services
         private readonly ICanceledPurchasePublisher _canceledPurchasePublisher;
         private readonly IPurchaseRepository _repository;
         private readonly ISaleItemRepository _saleItemRepository;
+        private ICreatePurchasePublisher createPurchasePublisherMock;
+        private IAlteredPurchasePublisher alteredPurchasePublisherMock;
 
         public PurchaseService(
             ICreatePurchasePublisher createPurchasePublisher,
@@ -35,6 +37,7 @@ namespace AndreiLima._123Vendas.Domain.Services
             
             
         }
+
 
         public override async Task<Guid> CreateAsync(Purchase entity)
         {
